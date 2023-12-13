@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
-
+import "./JokeCard.scss";
 export default () => {
   const [joke, setJoke] = useState();
   const [click, setClick] = useState(false);
